@@ -1,0 +1,194 @@
+<!DOCTYPE html> <html lang="vi"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>MC Rank - Minecraft Rankings</title> <link rel="stylesheet" href="style.css"> </head> <body> <header class="navbar"> <div class="container nav-inner">
+<a href="#" class="logo">
+  <span class="logo-icon">M</span>
+  <span>MC<span>RANK</span></span>
+</a>
+
+<nav id="nav">
+  <a href="#" class="active">Rankings</a>
+  <a href="#players">Players</a>
+  <a href="#about">About</a>
+</nav>
+
+<button class="menu-btn" id="menuBtn">☰</button>
+
+</div> </header> <main class="container"> <section class="hero">
+<div>
+  <p class="eyebrow">MINECRAFT COMPETITIVE</p>
+
+  <h1>Player Rankings</h1>
+
+  <p class="subtitle">
+    Explore the best Minecraft players and their competitive rankings.
+  </p>
+</div>
+
+<div class="server-status">
+  <span class="status-dot"></span>
+
+  <div>
+    <strong>Server Online</strong>
+    <small>play.example.net</small>
+  </div>
+</div>
+
+</section> <section class="search-area">
+<div class="search-box">
+  <span>⌕</span>
+
+  <input
+    id="searchInput"
+    type="text"
+    placeholder="Search player..."
+    autocomplete="off"
+  >
+</div>
+
+</section> <section class="categories">
+<button class="category active" data-category="Overall">
+  Overall
+</button>
+
+<button class="category" data-category="Vanilla">
+  Vanilla
+</button>
+
+<button class="category" data-category="UHC">
+  UHC
+</button>
+
+<button class="category" data-category="Pot">
+  Pot
+</button>
+
+<button class="category" data-category="NethOP">
+  NethOP
+</button>
+
+<button class="category" data-category="SMP">
+  SMP
+</button>
+
+<button class="category" data-category="Sword">
+  Sword
+</button>
+
+<button class="category" data-category="Axe">
+  Axe
+</button>
+
+<button class="category" data-category="Mace">
+  Mace
+</button>
+
+</section> <section class="ranking-layout">
+<div class="ranking-card" id="players">
+
+  <div class="card-header">
+
+    <div>
+      <h2 id="rankingTitle">Overall Rankings</h2>
+      <p id="playerCount">10 players</p>
+    </div>
+
+    <button class="filter-btn">
+      Latest ↕
+    </button>
+
+  </div>
+
+
+  <div class="table-head">
+
+    <span>#</span>
+    <span>PLAYER</span>
+    <span>TIER</span>
+    <span>REGION</span>
+    <span>POINTS</span>
+
+  </div>
+
+
+  <div id="playerList"></div>
+
+  <div class="empty" id="emptyState">
+    Không tìm thấy player.
+  </div>
+
+</div>
+
+
+<aside class="sidebar">
+
+  <div class="side-card">
+
+    <h3>Top players</h3>
+
+    <p class="side-description">
+      The highest ranked players in the current category.
+    </p>
+
+
+    <div class="mini-player">
+
+      <div class="mini-rank">1</div>
+
+      <div class="avatar red">A</div>
+
+      <div>
+        <strong>Astro</strong>
+        <small>HT1 · 2850</small>
+      </div>
+
+    </div>
+
+
+    <div class="mini-player">
+
+      <div class="mini-rank">2</div>
+
+      <div class="avatar blue">N</div>
+
+      <div>
+        <strong>Nova</strong>
+        <small>HT1 · 2795</small>
+      </div>
+
+    </div>
+
+
+    <div class="mini-player">
+
+      <div class="mini-rank">3</div>
+
+      <div class="avatar green">Z</div>
+
+      <div>
+        <strong>Zenith</strong>
+        <small>HT2 · 2710</small>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="side-card" id="about">
+
+    <h3>About MC Rank</h3>
+
+    <p>
+      A Minecraft competitive ranking website.
+      Rankings can be connected to your own API or database later.
+    </p>
+
+  </div>
+
+</aside>
+
+</section> </main> <footer> <div class="container footer-inner">
+<span>© 2026 MC Rank</span>
+
+<span>Minecraft ranking platform</span>
+
+</div> </footer> <script src="script.js"></script> </body> </html>

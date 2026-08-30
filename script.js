@@ -1,55 +1,55 @@
 const players = [
 {
-name: "Astro",
-id: "astro_mc",
-tier: "HT1",
-region: "NA",
-points: 2850,
+name: "kitlord",
+id: "kitlord_mc",
+tier: "LT5",
+region: "AS",
+points: 2,
 color: "red"
 },
 
 {
-name: "Nova",
-id: "nova_",
-tier: "HT1",
-region: "EU",
-points: 2795,
+name: "toan111",
+id: "toan111_mc",
+tier: "LT5",
+region: "AS",
+points: 1,
 color: "blue"
 },
 
 {
-name: "Zenith",
-id: "zenith",
-tier: "HT2",
+name: "chemiaparty",
+id: "chemiaparty_mc",
+tier: "HT5",
 region: "AS",
-points: 2710,
+points: 2,
 color: "green"
 },
 
 {
-name: "Vortex",
-id: "vortex",
-tier: "HT2",
-region: "NA",
-points: 2665,
+name: "qbinh_",
+id: "qbinh_mc",
+tier: "HT4",
+region: "AS",
+points: 5,
 color: "purple"
 },
 
 {
-name: "Frost",
-id: "frosty",
-tier: "HT2",
-region: "EU",
-points: 2610,
+name: "quangvinhh",
+id: "quangvinh_mc",
+tier: "HT4",
+region: "AS",
+points: 5,
 color: "blue"
 },
 
 {
-name: "Reaper",
+name: "Slattdiablo",
 id: "reaper_mc",
-tier: "HT3",
+tier: "HT4",
 region: "AS",
-points: 2540,
+points:  5,
 color: "red"
 },
 

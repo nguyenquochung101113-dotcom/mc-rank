@@ -1,57 +1,58 @@
 const players = [
-{
-name: "kitlord",
-id: "kitlord_mc",
-tier: "LT5",
-region: "AS",
-points: 2,
-color: "red"
-},
+  {
+    name: "kitlord",
+    id: "kitlord_mc",
+    tier: "LT5",
+    region: "AS",
+    points: 2,
+    color: "red"
+  },
 
-{
-name: "toan111",
-id: "toan111_mc",
-tier: "LT5",
-region: "AS",
-points: 1,
-color: "blue"
-},
+  {
+    name: "toan111",
+    id: "toan111_mc",
+    tier: "LT5",
+    region: "AS",
+    points: 1,
+    color: "blue"
+  },
 
-{
-name: "chemiaparty",
-id: "chemiaparty_mc",
-tier: "HT5",
-region: "AS",
-points: 2,
-color: "green"
-},
+  {
+    name: "chemiaparty",
+    id: "chemiaparty_mc",
+    tier: "HT5",
+    region: "AS",
+    points: 2,
+    color: "green"
+  },
 
-{
-name: "qbinh_",
-id: "qbinh_mc",
-tier: "HT4",
-region: "AS",
-points: 5,
-color: "purple"
-},
+  {
+    name: "qbinh_",
+    id: "qbinh_mc",
+    tier: "HT4",
+    region: "AS",
+    points: 5,
+    color: "purple"
+  },
 
-{
-name: "quangvinhh",
-id: "quangvinh_mc",
-tier: "HT4",
-region: "AS",
-points: 5,
-color: "blue"
-},
+  {
+    name: "quangvinhh",
+    id: "quangvinh_mc",
+    tier: "HT4",
+    region: "AS",
+    points: 5,
+    color: "blue"
+  },
 
-{
-name: "Slattdiablo",
-id: "reaper_mc",
-tier: "HT4",
-region: "AS",
-points:  5,
-color: "red"
-},
+  {
+    name: "Slattdiablo",
+    id: "reaper_mc",
+    tier: "HT4",
+    region: "AS",
+    points: 5,
+    color: "red"
+  }
+];
 
 {
 name: "Shadow",
